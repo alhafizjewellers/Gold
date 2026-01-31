@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Panel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Admin Login</h2>
+<input id="user" placeholder="Username">
+<input id="pass" type="password" placeholder="Password">
+<button onclick="login()">Login</button>
+
+<div id="panel" style="display:none">
+<h3>Add Receipt</h3>
+
+<input id="r_code" placeholder="4 Digit Code">
+<input id="r_name" placeholder="Customer Name">
+<input id="r_phone" placeholder="Customer Number">
+<input id="r_weight" placeholder="Gold Weight">
+<input id="r_karat" placeholder="Gold Karat">
+<input id="r_rate" placeholder="Gold Tola Rate">
+<input id="r_mazdori" placeholder="Mazdori">
+<input id="r_polish" placeholder="Polish">
+
+<button onclick="save()">Save Receipt</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
